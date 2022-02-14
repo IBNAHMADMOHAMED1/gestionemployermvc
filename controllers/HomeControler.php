@@ -5,7 +5,7 @@ class HomeContrller
 {
     public function index($page)
     {
-        include('./views/'.$page.'.php');
+        include('Views/'.$page.'.php');
         
     }
 }
